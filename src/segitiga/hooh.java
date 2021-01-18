@@ -4,6 +4,7 @@ public class hooh {
     
     Scanner io = new Scanner(System.in);
     double alas, tinggi, total;
+    String hasil;
     
    void isi(){
        System.out.println("Masukkan alas segitiga   : ");
@@ -15,8 +16,9 @@ public class hooh {
    void hitung(){
        total = alas * tinggi / 2;
   } 
-   void hasil(){
+   String hasil(){
        System.out.println("=======================================");
        System.out.println("Hasil luas segitiga      : "+total);
+       return hasil;
    }
 }
